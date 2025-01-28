@@ -5,3 +5,8 @@ const saludar = (name) => {
 const despedir = (name) => {
     console.log(`adios ${name}`);
 }
+
+const saludarYDespedir = (name) => {
+    saludar(name);
+    despedir(name);
+}
