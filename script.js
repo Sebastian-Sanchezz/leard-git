@@ -1,8 +1,6 @@
 //Comentario de prueba
 console.log('Agrego este cambio')
 
-
-
-const hello = () => {
-    console.log('hola');
+const saludar = (name) => {
+    console.log(`hola ${name}`);
 }
